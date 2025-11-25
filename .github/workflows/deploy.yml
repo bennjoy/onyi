@@ -35,6 +35,8 @@ jobs:
 
       - name: Copy CNAME to output
         run: cp CNAME out/
+
+      - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
